@@ -1,0 +1,71 @@
+// <МИКСИНЫ>==============================================
+
+@import './mixins/flex';
+
+@import './mixins/anim';
+
+@import './mixins/media';
+// </МИКСИНЫ>============================================
+
+// <ШРИФТЫ>==============================================
+
+@import './utils/fonts';
+// </ШРИФТЫ>=============================================
+
+// <ПЕРЕМЕННЫЕ===========================================
+
+@import './utils/variables';
+// </ПЕРЕМЕННЫЕ==========================================
+
+// <ОБНУЛЕНИЕ ОБЩИЕ ПАРАМЕТРЫ===========================
+
+@import './reset/_reset';
+
+@import './components/_ibg';
+// </ОБНУЛЕНИЕ ОБЩИЕ ПАРАМЕТРЫ=========================
+
+// <ОСНОВНОЙ КОД========================================
+
+@import './common/global';
+
+@import 'common/header';
+
+@import 'common/main-page';
+
+@import 'common/api-page';
+
+@import 'common/form-page';
+
+@import './common/error-page';
+
+@import './common/footer';
+
+// </ОСНОВНОЙ КОД======================================
+
+/* * {
+	background-color: rgba(255, 0, 0, 0.2);
+  }
+  * * {
+	background-color: rgba(0, 255, 0, 0.2);
+  }
+  * * * {
+	background-color: rgba(0, 0, 255, 0.2);
+  }
+  * * * * {
+	background-color: rgba(255, 0, 255, 0.2);
+  }
+  * * * * * {
+	background-color: rgba(0, 255, 255, 0.2);
+  }
+  * * * * * * {
+	background-color: rgba(255, 255, 0, 0.2);
+  }
+  * * * * * * * {
+	background-color: rgba(255, 0, 0, 0.2);
+  }
+  * * * * * * * * {
+	background-color: rgba(0, 255, 0, 0.2);
+  }
+  * * * * * * * * * {
+	background-color: rgba(0, 0, 255, 0.2);
+  } */

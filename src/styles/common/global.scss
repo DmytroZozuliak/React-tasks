@@ -1,0 +1,92 @@
+// <ОБОЛОЧКА=============================================
+// .wrapper {
+//   width: 100%;
+//   min-height: 100%;
+//   overflow: hidden;
+//   background: $color1;
+//   color: #ffffff;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// }
+// </ОБОЛОЧКА============================================
+
+// <ОСНОВНАЯ СЕТКА========================================
+.container {
+  width: 100%;
+  max-width: $mw + 40 + px;
+  height: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+// </ОСНОВНАЯ СЕТКА=======================================
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  height: 100%;
+  background-color: $bcg-color1;
+  color: $font-color-main;
+  font-size: 16px;
+  text-align: center;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+  flex-direction: column;
+  @include flex();
+}
+
+body._lock {
+  overflow: hidden;
+}
+
+/* -webkit-scrollbar */
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+body::-webkit-scrollbar-button {
+  display: none;
+}
+
+body::-webkit-scrollbar-track-piece {
+  background-color: $bcg-color1;
+}
+
+body::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: $bcg-color3;
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-corner {
+  background-color: #999999;
+}
+
+body::-webkit-resizer {
+  background-color: $bcg-color1;
+}
+
+// .application {
+// }
+
+.page {
+  flex: 1 1 auto;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+
+  @include flex();
+}

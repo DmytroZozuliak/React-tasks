@@ -1,0 +1,64 @@
+/* @font-face {
+    font-family: "Arial-MT";
+    src: url("../assets/fonts/Arial-MT.woff") format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Owfont";
+    src:
+        url("../assets/fonts/owfont-regular.eot") format("embedded-opentype"),
+        url("../assets/fonts/owfont-regular.otf") format("opentype"),
+        url("../assets/fonts/owfont-regular.svg") format("svg"),
+        url("../assets/fonts/owfont-regular.ttf") format("truetype"),
+        url("../assets/fonts/owfont-regular.woff") format("woff");
+    font-weight: 400;
+}
+*/
+
+// *Пример подключение шрифт
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+ @font-face {
+  font-family: "Ringbearer";
+  src: url("../../assets/fonts/RingbearerMedium-51mgZ.ttf");
+  // Путь к файлу со шрифтом
+}
+
+ @font-face {
+  font-family: "Hobbiton";
+  src: url("../../assets/fonts/HobbitonBrushhandhobbitonBrush-WygA.ttf");
+  // Путь к файлу со шрифтом
+}
+
+ @font-face {
+  font-family: "Elven";
+  src: url("../../assets/fonts/HalfElven-gzj4.ttf");
+  // Путь к файлу со шрифтом
+}
+
+ @font-face {
+  font-family: "Middleearth";
+  src: url("../../assets/fonts/Middleearth-ao6m.ttf");
+  // Путь к файлу со шрифтом
+}
+
+ @font-face {
+  font-family: "Moria";
+  src: url("../../assets/fonts/AngerthasMoria-lgLAD.ttf");
+  // Путь к файлу со шрифтом
+}
+
+ @font-face {
+  font-family: "Ring";
+  src: url("../../assets/fonts/ElvishRingNfi-wMJz.ttf");
+  // Путь к файлу со шрифтом
+}
+
+
+// <ШРИФТ ПО УМОЛЧАНИЮ===================================
+$fontfamily-article: 'Neucha', cursive;
+$fontfamily: 'Neucha', cursive;
+// $fontfamily: "Steppe", sans-serif;
+// </ШРИФТ ПО УМОЛЧАНИЮ==================================

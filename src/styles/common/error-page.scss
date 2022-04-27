@@ -1,0 +1,19 @@
+.error-page__title {
+  width: 580px;
+  height: 250px;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid $bcg-color3;
+  backdrop-filter: blur(6px);
+  background-color: $bg-blur;
+  border-radius: 25px;
+  font-family: $fontfamily-article;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 70px;
+  text-align: center;
+
+  @include flex();
+}
