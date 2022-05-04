@@ -14,7 +14,7 @@ interface Props {
 }
 
 const ToggleCheckbox: FC<Props> = (props) => {
-  const { name = 'checkbox', register, errorMessage, onChange, label, error, ...restProps } = props;
+  const { name = 'checkbox', register, errorMessage, label, error, ...restProps } = props;
   const inputId = `${name}-${Math.random()}`;
 
   return (

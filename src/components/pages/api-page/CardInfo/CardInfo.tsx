@@ -1,6 +1,6 @@
 import { faArrowsRotate } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { ICharacter } from '../../../../data/apiTypes';
 import { AppContext } from '../../../../store/context';
@@ -42,6 +42,7 @@ const CardInfo = () => {
 
   useEffect(() => {
     refreshQuote();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const renderInfo = (info: keyof ICharacter) => {

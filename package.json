@@ -15,8 +15,6 @@
     "@types/react": "^17.0.41",
     "@types/react-dom": "^17.0.14",
     "axios": "^0.26.1",
-    "eslint-config-react": "^1.1.7",
-    "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -53,16 +51,15 @@
     ]
   },
   "devDependencies": {
-    "@react-mock/localstorage": "^0.1.2",
-    "@typescript-eslint/eslint-plugin": "^5.16.0",
-    "@typescript-eslint/parser": "^5.16.0",
-    "eslint": "^8.11.0",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-import-resolver-typescript": "^2.7.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "mock-local-storage": "^1.1.20",
-    "msw": "^0.39.2",
-    "prettier": "2.6.0"
+    "prettier": "2.6.2",
+    "msw": "^0.39.2"
   }
 }
